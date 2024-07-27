@@ -1,0 +1,125 @@
+	*{
+	margin: 0;
+}
+body{
+	display: flex;
+	color: white;
+	font-family: Calibri;
+	overflow-y: hidden;
+}
+.register{
+	height: 100vh;
+	width: 60%;
+	padding: 100px;
+	background-color: #151a22;
+}
+.login{
+	height: 100vh;
+	width: 40%;
+	padding: 100px;	
+	background-color: #00a876;
+}
+
+.logo img{
+	position: absolute;
+	width: 160px;
+	height: 50px;
+}
+.head{
+	position: absolute;
+	top: 250px;
+	font: normal;
+	font-size: 50px;
+}
+.subhead{
+	position: absolute;
+	top: 320px;
+	font-size: 30px;
+	color: rgb(120, 120, 120);
+}
+.note{
+	position: absolute;
+	top: 390px;
+	width: 500px;
+	color: rgb(120, 120, 120);
+}
+.reg-btn{
+	position: absolute;
+	top: 500px;
+	width: 175px;
+	height: 40px;
+	background-color: #00a876;
+	border: none;
+	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	font: bolder;
+}
+.selection{
+	text-decoration: none;
+	position: absolute;
+	top:700px;
+	text-transform: capitalize;
+}
+select{
+	background-color: transparent;
+	color: rgb(120, 120, 120);
+	border: none;
+}
+.help{
+	padding: 20px;
+	text-decoration: none;
+	color: rgb(120, 120, 120);
+	font: bolder;
+}
+.loginsubhead{
+	position: absolute;
+	top: 290px;
+	font-size: 30px;
+	color: white;
+}
+.logintable{
+	position: absolute;
+	top: 350px;
+	width: 500px;
+	border: 2px;
+	width: fit-content;
+}
+.email{
+	width: 400px;
+	height: 40px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid white;
+	color: white;
+}
+.email::placeholder{
+	color: lightgray;
+}
+.password::placeholder{
+	color: lightgray;
+}
+.password{
+	width: 400px;
+	height: 40px;
+	top: 420px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid white;
+	color: white;
+}
+.login-btn{
+	width: 100px;
+	height: 35px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #00a876;
+	font: bolder;
+}
+.forgot-link{
+	text-decoration: none;
+	color: lightgray;
+	text-align: left;
+}
